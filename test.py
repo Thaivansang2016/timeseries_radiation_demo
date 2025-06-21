@@ -52,11 +52,11 @@ transform = transforms.Compose([
     )
 ])
 
-st.title("📸 Dự báo bức xạ mặt trời từ chuỗi ảnh")
+st.title("📸 Dự báo bức xạ mặt trời")
 
 # 🖼️ Tải chuỗi ảnh
 uploaded_files = st.file_uploader(
-    "Tải lên chuỗi ảnh (theo thứ tự thời gian)",
+    "Tải lên chuỗi ảnh và bức xạ đo được:",
     type=["jpg", "jpeg", "png"],
     accept_multiple_files=True
 )
